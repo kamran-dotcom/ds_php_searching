@@ -1,5 +1,5 @@
 <?php
-echo "<p>Binary Search tree with Itration Method</p>";
+echo "<p>Binary Search with Itration Method</p>";
 $numbers = [45,67,23,45,3,45,56];
 echo "<p>Numbers array </p>";
 print_r($numbers);
