@@ -1,11 +1,11 @@
 <?php
 echo "<p>Binary Search with Itration Method</p>";
-$numbers = [45,67,23,45,3,45,56];
+$numbers = [45,67,23,1,3,90,56];
 echo "<p>Numbers array </p>";
 print_r($numbers);
 $low = 0;
 $high = count($numbers)-1;
-$indexedValue = 45;
+$indexedValue = 3;
 
 $searchedIndex = binarySearch($numbers, $low, $high, $indexedValue);
 
