@@ -20,7 +20,7 @@ function binary_search($numbers, $low, $high, $searchedValue)
     
     if($high >= $low)
     {
-        $mid = (int)($low + ($high - $low)/2);
+        $mid = round($low + ($high - $low)/2);
         // $mid = ($low + $high) /2;
 
         if($numbers[$mid] == $searchedValue)
